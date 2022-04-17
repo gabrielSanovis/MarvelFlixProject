@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --vemelhor: #e23636;
+    --preta: #221f1f;
+    --branco: #c7c7c7;
+    --azul: #518cca;
+    --font-primary: "Bebas Neue";
+    --title: "Marvel";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* CABEÇALHO */
+body {
+    background-color: var(--preta);
+    color: #ebebeb;
+    font-family: var(--title);
+}
+
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content ul{
+    display: flex;
+}
+
+.logo-config {
+    color: var(--vemelhor);
+    font-family: var(--font-primary), "Arial Black";
+    font-size: 3.4rem;
+    margin-left: 2%;
+}
+
+header nav a {
+    color: var(--branco);
+    margin-right: 1rem;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    color: #ffff;
+}
+/*Seção do filme principal*/
+
+.filme-principal {
+    font-size: 1.3rem;
+    background-image: linear-gradient(270deg, rgba(0, 0, 0,.4) 0%, rgba(0,0,0,1) 80%), url(/img/6KclfESXQia4BbJNv4xUnBqaWfe.jpg);
+    
+    height: 60vh;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.filme-principal .container {
+    width: 90%;
+}
+
+
+
+
+.title {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 1%;
+}
+
+/*Seção de informações do main*/
+.info-content {
+    display: flex;
+    justify-content: flex-start; 
+    margin-bottom: 2%;
+}
+
+.info-bg {
+    background-color: rgba(34, 31, 31, .7);
+    padding: .1rem;
+    border-radius: 4px;
+}
+
+.info-content p{
+    margin-right: 1.2%;
+}
+
+.info-content i{
+    margin-top: .3%;
+    font-size: 1.1rem;
+}
+
+/*Seção de botões do main*/
+
+.btns {
+    margin-top:2%;
+    margin-left: 2%;
+}
+
+.btn {
+    background-color: rgba(71, 71, 71, 0.3);
+    border: none;
+    border-radius: 10px;
+    color: var(--branco);
+    height: cover;
+
+    font-size: 1.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding: .6rem;
+    margin-right: 1.3rem;
+
+    cursor: pointer;
+    transition: background-color .5s
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--preta);
+    
+}
+
+.btn-main {
+    background-color: rgba(226,54,54, .3);
+}
+
+.btn a{
+    color: var(--branco);
+}
+
+.btn-main:hover {
+    background-color: rgba(226,54,54, .8);
+    color: var(--branco);
+}
+
+i{
+    margin-right: .4rem;    
+}
+
+.header-tv {
+    margin-left: 2%;
+    
+}
+
+#films {
+    margin-top: 1%;
+    font-size: 2rem;
+}
+
+.carro-filmes {
+    margin-top: .6%;
+}
+
+.box-mini {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

@@ -1,0 +1,86 @@
+@media screen and (max-width: 760px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .filme-principal {
+        font-size: 1.2rem;
+        
+        background-size: 100%;
+        height: 50vh;
+        
+    }
+
+    .filme-principal .container {
+        width: 65%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .info-content i{
+        margin-top: .7%;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .filme-principal {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 593px) {
+    .filme-principal {
+        font-size: 1rem;
+        
+        background-size: 100%;
+        height: 40vh;
+        
+    }
+}
+
+@media screen and (max-width: 415px) {
+    
+    
+    .logo-config {
+        font-size: 2rem;
+        
+    }
+
+    header nav a {
+        font-size: .9rem;
+    }
+    
+    .filme-principal {
+        font-size: .9rem;
+        height: 25vh;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    
+    .btn {
+        padding: .4rem;
+        margin-right: .5rem;
+        font-size: .7rem;
+
+    }
+}
